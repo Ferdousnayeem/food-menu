@@ -62,7 +62,7 @@ searchBtn.addEventListener("click", () => {
               <div class="card-body">
                   <h5 class="card-title">${meal.strMeal}</h5>
                   <p class="card-text">${meal.strInstructions.slice(0, 150)}</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#meal-details" onclick="mealDetails(${
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meal-details" onclick="mealDetails(${
                     meal.idMeal
                   })">More Details</button>
               </div>
